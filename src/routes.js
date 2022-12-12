@@ -1,5 +1,5 @@
 const { Router } = require('express')
-const PersonController = require('./Controllers/PersonController')
+const PersonController = require('./controllers/PersonController')
 const routes = Router()
 
 routes.get('/', (req, res) => {
