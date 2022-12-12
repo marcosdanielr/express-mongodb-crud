@@ -9,9 +9,6 @@ class PersonController {
       return
     }
 
-    if (!salary) {
-      res.status(422).json({ error: 'salary is empty' })
-    }
     const person = {
       name,
       salary,
